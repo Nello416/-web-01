@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>自我介绍</title>
+<style>
+body 
+{
+    background-image:url('bg.jpg');   /*背景*/
+    background-repeat:no-repeat;
+} 
+.center 
+{
+    margin-left:130px;
+    width: 50%;
+    text-align:center;          /*用于标题*/
+    padding: 10px;
+}
+span:first-child
+{
+    color:hotpink;     /*伪类给标题染色*/
+}
+ul.s 
+{
+    list-style-type:square;   
+}
+li.b                                /*无序列表*/
+{
+    font-size:x-large;
+}
+</style>
+</head>
+
+<body>
+       <div class="center">
+           <span style="font-size:70px;
+           font-style:italic;
+           font-family:Georgia, 'Times New Roman', Times, serif;">
+           Nelloの自我介绍</span>
+        </div>
+        <br>
+        <div style="float:right;color:hotpink;
+        font-size:x-large;
+        border:crimson;
+        background-color:snow;
+        text-align:center;">
+        <img src="head.jpg"alt="wife" 
+        style="float:right;"
+        width="400"height="400">
+        <br>
+        这是我的<del>老婆</del><big>头像</big>！
+        </div>                                    
+        <div style="font-family:verdana;    
+         width:1050px;
+         height:500px;
+         border-radius:10px;
+         border:10px solid plum;
+         opacity:0.6;
+         filter:alpha(opacity=60);">
+         <div style="color:darkviolet;
+         font-size:x-large;
+         margin-left:0px;
+         margin-top:0px;">我的
+         <span style="background-color:#B4009E;color:#ffffff;">名字
+         </span>:
+         <span style="color:rgb(183, 105, 255);margin-left:8px;">白辰阳
+         </span>
+         </div>
+         <div style="color:rgb(81, 0, 211);
+         font-size:x-large;
+         margin-left:0px;
+         margin-top:0px;">我的
+         <span style="background-color:#b40063;color:#ffffff;">爱好
+         </span>:
+         <span style="color:rgb(170, 105, 255);margin-left:8px;">
+          二次元，轻小说，看日剧(最近很喜欢
+          <a href="//baike.baidu.com/item/堺雅人/184974?fr=aladdin
+          ">堺雅人</a>)，
+          <del>Web开发</del>(这么晚才提交要点脸吧!)
+          </span>
+         </div>
+         <div style="color:rgb(81, 0, 211);
+         font-size:x-large;
+         text-indent:55px;
+         margin-top:0px;">
+         本宅男的产地就在成都，家住距离沙河直线距离一里外的前锋路，
+         以前的性格比较内向，现在正在尝试成为一个外向的死宅，十月新番
+         里的<ins>女儿</ins>是伊蕾娜。(如右图所示)
+         <hr style="height:10px;
+         background-color:rgb(255, 105, 248);">
+         <div style="color:rgb(211, 0, 0);
+         font-size:30px;
+         margin-left:355px;
+         margin-top:0px;">
+         个人基本信息
+         </div>
+         <ul class="s">
+             <li>性别:男</li>
+             <li>学院:信息与软件工程学院</li>
+             <li>班级:五班</li>
+             <li>联系电话:13348944821</li>
+             <li>QQ:1226624879</li>
+         </ul>
+        </div>
+</body>
